@@ -1,3 +1,6 @@
 credentials*
 data/
 .vscode/
+.env
+token.json
+__pycache__/
