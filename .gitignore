@@ -4,3 +4,5 @@ data/
 .env
 token.json
 __pycache__/
+mlflow.db
+mlruns/
