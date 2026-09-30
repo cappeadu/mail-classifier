@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Lenovo/code/gmail-classifier/mlruns/1/models/m-b1c343378310400eac2ccd8d46901cc0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-b1c343378310400eac2ccd8d46901cc0
+model_size_bytes: 7728002
+model_uuid: m-b1c343378310400eac2ccd8d46901cc0
+prompts: null
+run_id: 2459ffedb7ae4372ba2525f4d0250224
+utc_time_created: '2026-09-30 19:09:13.143452'
